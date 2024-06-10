@@ -12,4 +12,5 @@ val appModule = module {
     single { ApiService(get()) }
     single { MyRepository(get()) }
     viewModel { MyViewModel(get()) }
+    //ok
 }

@@ -19,6 +19,7 @@ object KtorClient {
             install(Logging) {
                 level = LogLevel.BODY
 //                logger= Logger.DEFAULT
+                //level
             }
             install(ContentNegotiation) {
                 json(Json {
